@@ -5,7 +5,7 @@ let table=document.getElementById("table");
 let total=document.getElementById("total");
 
 let priceArr=[];
-function addItem() {
+function addData() {
     let item=itemInput.value;
     let price=priceInput.value;
     let sum=0;
@@ -25,4 +25,4 @@ function addItem() {
     }
 }
 
-button.addEventListener('click',addItem);
+button.addEventListener('click',addData);
